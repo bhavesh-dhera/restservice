@@ -1,0 +1,11 @@
+spring.cloud.kubernetes.config.name: example
+
+spring:
+  cloud.kubernetes.reload:
+    enabled: true
+    strategy: restart_context
+
+management:
+  endpoint:
+    restart:
+      enabled: true
