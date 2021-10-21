@@ -22,6 +22,8 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     compileOnly 'org.projectlombok:lombok'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-kubernetes-core
+    implementation 'org.springframework.cloud:spring-cloud-kubernetes-core:1.1.10.RELEASE'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
